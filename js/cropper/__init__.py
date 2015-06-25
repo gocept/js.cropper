@@ -1,7 +1,6 @@
 from fanstatic import Library, Resource
 
 library = Library('cropper', 'resources')
-
-# Define the resources in the library like this.
-# For options and examples, see the fanstatic documentation.
-# resource1 = Resource(library, 'style.css')
+cropper_css = Resource(library, 'cropper.css', minified='cropper.min.css')
+cropper = Resource(
+    library, 'cropper.js', minified='cropper.min.js', depends=[cropper_css])
