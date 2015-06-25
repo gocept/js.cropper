@@ -1,10 +1,10 @@
 CHANGES
 *******
 
-0.10.1 (unreleased)
+0.10.0-1 (unreleased)
 ===================
 
-- Nothing changed yet.
+- Add dependency to jQuery, so `js.cropper` is added after `js.jquery`.
 
 
 0.10.0 (2015-06-25)
